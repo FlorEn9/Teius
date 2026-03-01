@@ -1,38 +1,42 @@
-<Html>
-    
-    <HR>
-Your Name? <INPUT TYPE=text NAME="name" SIZE=30>
-<BR>
-Secret Code: <INPUT TYPE=password NAME="password">
-<HR>
-<B>De ce e pena asa handsome? </B>
-    <SELECT NAME="Sandwich">
-<OPTION>(none) 
-<OPTION>A slabit
-<OPTION>Asa a fost mereu
-<OPTION>E peste Cimpo
-</SELECT>
- 
-<BR>
-<B>Alessio e tare? </B>
- 
-<SELECT NAME="Soup">
-<OPTION>(none) 
-<OPTION>Da 
-    <OPTION>Nu 
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Teius</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <h1>Teius</h1>
+    <p>O scurtă prezentare și pagini dedicate pentru fiecare.</p>
+  </header>
 
-</SELECT>
-    <P>
-Care e cel mai handsome:: 
-<INPUT TYPE=radio NAME="payment" VALUE="Raul">Raul
-<INPUT TYPE=radio NAME="payment" VALUE="Florin">Florin
-<INPUT TYPE=radio NAME="payment" VALUE="Alessio" CHECKED>Alessio
-<INPUT TYPE=radio NAME="payment" VALUE="Maican">Maican
- 
-<HR>
- 
-<INPUT TYPE=checkbox NAME="firstorder" VALUE="firstorder">Este fratele meu cn a scris asta?
-<P>
+  <main class="grid">
+    <article class="card">
+      <h2>Florin</h2>
+      <p>Student ETTI, pasionat de japoneză și fitness.</p>
+      <a class="btn" href="oameni/florin.html">Vezi profil</a>
+    </article>
+
+    <article class="card">
+      <h2>Cimpo</h2>
+      <p>Om bun la glume și la fotbal/baschet (pune ce vrei).</p>
+      <a class="btn" href="oameni/andrei.html">Vezi profil</a>
+    </article>
+
+    <article class="card">
+      <h2>Raul</h2>
+      <p>Gamer, tech, mereu cu idei.</p>
+      <a class="btn" href="oameni/mihai.html">Vezi profil</a>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Gașca</p>
+  </footer>
+</body>
+
 <style>
   body{
     margin: 0;
